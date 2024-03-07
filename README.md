@@ -60,15 +60,15 @@ This shall also be very helpful for students, who are planning to switch from bt
 ### Step 1: Pre-requisites 
 `Windows users switch to the WSL-2 folder for all further work; You'll find a linux folder which looks like this, go to home -> username and start working here, the bash can be acessed by searching ubuntu in the search bar`
 
-<img src="assets/help.PNG" alt="Image" width="600"/>
+<img src="assets/wsl.PNG" alt="Image" width="600"/>
 
 
 * You need to have python 3.10 or more. You may download it from here: [Python](https://www.python.org/downloads/)
 * Download and Install [Pip](https://pip.pypa.io/en/stable/installation/)
 * Make an OpenAI account, go and get your free API token worth 5 Dollars from [here](https://platform.openai.com/api-keys) `https://platform.openai.com/api-keys`
-* Check if you have enough balence, as in many cases, the balence is zero from the start. [This page of your OpenAI](https://platform.openai.com/usage) should look like this:
+* Check if you have enough balance, as in many cases, the balance is zero from the start. [This page of your OpenAI](https://platform.openai.com/usage) should look like this:
 
-    <img src="assets/wsl.PNG" alt="Image" width="600"/>
+    <img src="assets/usage.png" alt="Image" width="600"/>
 
 If it's showing `exhausted`, try using a fresh mobile number to login.
 
