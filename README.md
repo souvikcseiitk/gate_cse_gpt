@@ -24,7 +24,7 @@ As of now the dropbox is only having standard textbooks, needed for the GATE exa
 
 I am not sharing the books here, as there might be copyright problems.
 
-` I'm sharing a pdf having some basic info's regarding master's in CSE at IIT's and some interview experiences ` just in cse someone wants to try out the potential of the project.
+` I'm sharing a pdf having some basic info's regarding master's in CSE at IIT's and some interview experiences ` just in cse someone wants to try out the potential of the project. `It is in the demo_dropbox folder`
 
 We'll also have standard books along with interview experiences and campus information at our backend, once we have enough money to use GPT-4 and a machine to host our website 24x7.
 
