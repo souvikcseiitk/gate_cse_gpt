@@ -1,5 +1,7 @@
 # GATE CSE GPT, The problem and solution
 
+* This repo will be used and managed by contributers, service users can directly use the website after it is hosted.
+
 A chatbot-GPT powered by [OpenAI](https://openai.com/) & [Pathway](https://pathway.com/).
 
 Aims in helping students with interview and other common doubts, related to GATE CSE exam, specifically who are facing difficulty in affording coachings.
@@ -37,6 +39,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 * You can refer this [video](https://www.youtube.com/watch?v=Tlx7qZCPIsA&ab_channel=CloudChamp) for a better clarity.
 * Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ` python3 main.py ` and enquiring the error to chat-GPT. `Be ready for this, will be useful in Step 3`
 * You'll need to change this settings inside Docker to allow docker in ubuntu `Be ready for this, will be useful in Step 3`
+
 
  <img src="assets/help.PNG" alt="Image" width="600"/> 
 
