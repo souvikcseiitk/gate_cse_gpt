@@ -15,7 +15,7 @@ Widely used GPT's like ChatGPT, ‎Gemini cannot produce real-time and student c
 
 This repo is mostly a modification of [Dropbox-ai-chat](https://github.com/pathway-labs/dropbox-ai-chat/tree/main)
 
-# CAUTION
+# ⚠ CAUTION ⚠
 This project is under development. I am commiting for a bootcamp evaluation, will need to modify a lot before it's ready to use.
 
 It's not recommended to use this as of now. This is using a GPT-2 as of now and is full of hallucinations.
