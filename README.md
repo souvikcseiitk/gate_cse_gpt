@@ -35,11 +35,11 @@ We'll have standard books along with interview experiences and campus informatio
 
 See how the tool will look once ready:
 
-<img src="assets/gif1.gif" alt="Image" width="600"/>
+<img src="assets/gif11.gif" alt="Image" width="600"/>
 
 This shall also be very helpful for students, who are planning to switch from btech in non-CSE to mtech in CSE, as there are many students who are taking this path and there is very less helpful resource online to guide them properly.
 
-<img src="assets/gif2.gif" alt="Image" width="600"/>
+<img src="assets/gif12.gif" alt="Image" width="600"/>
 
 ## Steps to Follow
 
