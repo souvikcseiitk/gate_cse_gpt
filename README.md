@@ -8,7 +8,7 @@ A chatbot-GPT powered by [OpenAI](https://openai.com/) & [Pathway](https://pathw
 Aims in helping students with interview and other common doubts, related to GATE CSE exam, specifically who are facing difficulty in affording coachings.
 With the help of [Pathway's LLM App](https://github.com/pathwaycom/llm-app). and a [Dropbox](https://dropbox.com/) at backend, aims to help students to ace the GATE exam with free resources, helping in Post-GATE interviews and the main exam, test series equally.
 
-The main idea is to have a shared dropbox account, with write acess to a handful of students across all IIT's, to share relavent insights about campus life, placements and interview experiences.
+The main idea is to have a shared dropbox account, with write acess to a handful of students across all IIT's/IISc, to share relavent insights about campus life, placements and interview experiences.
 All of the resources will be stored in the drop-box and using these, the GPT will generate a real-time and relevent guide. 
 Widely used GPT's like ChatGPT, ‎Gemini cannot produce real-time and student curated answers like this bot-GPT will produce.
 
@@ -67,6 +67,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 
     <img src="assets/usage.png" alt="Image" width="600"/>
 
+If it's showing `exhausted`, try using a fresh mobile number to login.
 
 ### Step 2: Clone this repo, ideally close to home directory
 
@@ -105,4 +106,4 @@ MAX_TOKENS=200
 TEMPERATURE=0.0
 DROPBOX_LOCAL_FOLDER_PATH="../../../mnt/c/Users/bumur/Dropbox/documents"
 ```
-
+We'll have a shared dropbox account, so that all of us can contribute (only students of IIT's/IISc who are willing to contribute) 
