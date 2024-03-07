@@ -133,7 +133,7 @@ docker-compose up
 Once your work is done, stop the containers using `docker-compose down` 
 Windows users, Docker do not get terminated once you click the close button. Switch it off from the app tray in the bottom right of the taskbar. Looks like this ( ^ ). `Right click on the docker icon and click Quit Docker Desktop` 
 
-##### Behind the Scenes with Docker: 
+#### Behind the Scenes with Docker: 
 [Copied from [here](https://iitk-bhu-llm.gitbook.io/coursework/hands-on-development/dropbox-retrieval-app/building-the-dockerized-app)]
 
 ##### Dockerfile: 
@@ -144,7 +144,7 @@ This file contains a set of instructions that Docker follows to build an image. 
 
 It's a tool for defining and running multi-container Docker applications. In our context, docker-compose uses the docker-compose.yml file to understand how to set up and run the app's services. 
 
-When you run docker-compose up, it starts the services as defined.
+`When you run docker-compose up, it starts the services as defined.`
 
 
 #### Step 7: Run the Pathway API
@@ -164,13 +164,13 @@ You can run the UI separately by running Streamlit app
 
 # Some common problems and solutions
 
-## Error 1. This is not the real Pathway package
+### Error 1: This is not the real Pathway package
 
 <img src="assets/error3.PNG" alt="Image" width="600"/>
 
 This means you are not in a MAC/Linux/Debian/WSL kind of environment. Follow Step-0 and install WSL, go to the Linux folder and work from there.
 
-## Error 2. Token Limit error `HTTP/1.1 429 Too Many Requests`
+### Error 2: Token Limit error `HTTP/1.1 429 Too Many Requests`
 
 <img src="assets/error1.PNG" alt="Image" width="600"/>
 
@@ -180,10 +180,10 @@ This means, you have exhausted your OpenAI token limits, [check here] (https://p
 
 If [this](https://platform.openai.com/usage) shows `expired` instead of `available` Login with a fresh mobile number, that you have never used with open-AI.
 
-## Error 3. error while attempting to bind on address ('0.0.0.0', 8080): address already in use 
+### Error 3: error while attempting to bind on address ('0.0.0.0', 8080): address already in use 
 Change to some other port in the .env file, like try 8081 instaed of 8080
 
-## Error 4. Any problem related to some package not found that you have already installed. Like `dotenv`, `litellm`, `streamlit`, `pip`, etc not found.
+### Error 4: Any problem related to some package not found that you have already installed. Like `dotenv`, `litellm`, `streamlit`, `pip`, etc not found.
 
 Find where that package is located by either ChatGPT or come out to root and do manual search in the search box. 
 Most of the things are here (\\wsl.localhost\Ubuntu\home\souvik\.local\lib\python3.10\site-packages)
