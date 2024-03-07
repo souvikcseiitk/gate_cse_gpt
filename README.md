@@ -27,5 +27,5 @@ See how the tool will look once ready:
 
 This shall also be very helpful for students, who are planning to switch from btech in non-CSE to mtech in CSE, as there are many students who are taking this path and there is very less helpful resource online to guide them properly.
 
-![GATE CSE GPT bot](assets/gif2.gif)
+<img src="assets/gif2.gif" alt="Image" width="600"/>
 
