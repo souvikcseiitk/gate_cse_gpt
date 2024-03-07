@@ -37,7 +37,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 
 ### Step 0: If you are a Windows user, i.e. not a MAC/Linux/Debian user.
 * Download [WSL-2](https://learn.microsoft.com/en-us/windows/wsl/install) ::<< Will allow Linux shell to run on windows.
-* You can refer this [video](https://www.youtube.com/watch?v=Tlx7qZCPIsA&ab_channel=CloudChamp) for a better clarity.
+* Refer this [video](https://www.youtube.com/watch?v=Tlx7qZCPIsA&ab_channel=CloudChamp) for a better clarity. `Recommended`
 * Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ` python3 main.py ` and enquiring the error to chat-GPT. `Be ready for this, will be useful in Step 3`
 * You'll need to change this settings inside Docker to allow docker in ubuntu `Be ready for this, will be useful in Step 3`
 
@@ -48,7 +48,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 `Windows user switch to the WSL-2 folder for all further work`
 
 * You need to have python 3.10 or more. You may download it from here: [Python](https://www.python.org/downloads/)
-* You need to install in pip
+* Download and Install [Pip](https://pip.pypa.io/en/stable/installation/)
 * Make an OpenAI account, go and get your free API token worth 5 Dollars from [here](https://platform.openai.com/api-keys) `https://platform.openai.com/api-keys`
 * Check if you have enough balence, as in many cases, the balence is zero from the start. [This page of your OpenAI](https://platform.openai.com/usage) should look like this:
 
