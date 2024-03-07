@@ -1,6 +1,7 @@
 # GATE CSE GPT, The problem and solution
 
-A chatbot-GPT powered by [OpenAI](https://openai.com/) & [Pathway](https://pathway.com/).(\n) 
+A chatbot-GPT powered by [OpenAI](https://openai.com/) & [Pathway](https://pathway.com/).
+
 Aims in helping students with interview and other common doubts, related to GATE CSE exam, specifically who are facing difficulty in affording coachings.
 With the help of [Pathway's LLM App](https://github.com/pathwaycom/llm-app). and a [Dropbox](https://dropbox.com/) at backend, aims to help students to ace the GATE exam with free resources , helping in interviews and exams equally.
 
