@@ -1,6 +1,7 @@
 # GATE CSE GPT, The problem and solution
 
-* This repo will be used and managed by contributers, service users can directly use the website after it is hosted.
+* This repo will be used and managed by contributers only.
+* Users can directly use the website after it is hosted.
 
 A chatbot-GPT powered by [OpenAI](https://openai.com/) & [Pathway](https://pathway.com/).
 
@@ -46,6 +47,11 @@ This shall also be very helpful for students, who are planning to switch from bt
 ### Step 1: You need to have python 3.10 or more. 
 You may download it from here: [Python](https://www.python.org/downloads/)
 * Make an OpenAI account, go and get your free API token worth 5 Dollars from [here](https://platform.openai.com/api-keys) `https://platform.openai.com/api-keys`
-* 
+* Check if you have enough balence, as in many cases, the balence is zero from the start. [This page of your OpenAI](https://platform.openai.com/usage) should look like this:
+
+
+    <img src="assets/usage.PNG" alt="Image" width="600"/>
+
+  
 
 
