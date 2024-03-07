@@ -185,7 +185,7 @@ If [this](https://platform.openai.com/usage) shows `expired` instead of `availab
 
 &nbsp;
 #### Error 3: error while attempting to bind on address ('0.0.0.0', 8080): address already in use 
-Change to some other port in the .env file, like try 8081 instaed of 8080
+ >> `Change to some other port in the .env file, like try 8081 instaed of 8080`
 
 &nbsp;
 #### Error 4: Any problem related to some package not found that you have already installed. Like `dotenv`, `litellm`, `streamlit`, `pip`, etc not found.
