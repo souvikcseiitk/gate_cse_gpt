@@ -133,14 +133,14 @@ docker-compose up
 Once your work is done, stop the containers using `docker-compose down` 
 Windows users, Docker do not get terminated once you click the close button. Switch it off from the app tray in the bottom right of the taskbar. Looks like this ( ^ ). `Right click on the docker icon and click Quit Docker Desktop` 
 
-### Behind the Scenes with Docker: 
+##### Behind the Scenes with Docker: 
 [Copied from [here](https://iitk-bhu-llm.gitbook.io/coursework/hands-on-development/dropbox-retrieval-app/building-the-dockerized-app)]
 
-### Dockerfile: 
+##### Dockerfile: 
 
 This file contains a set of instructions that Docker follows to build an image. It's like a blueprint for your application. Docker reads these instructions and creates a Docker image based on them. This image contains everything your app needs to run.
 
-### docker-compose: 
+##### docker-compose: 
 
 It's a tool for defining and running multi-container Docker applications. In our context, docker-compose uses the docker-compose.yml file to understand how to set up and run the app's services. 
 
