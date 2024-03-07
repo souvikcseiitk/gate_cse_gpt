@@ -42,7 +42,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 ### Step 0: If you are a Windows user, i.e. not a MAC/Linux/Debian user.
 * Download [WSL-2](https://learn.microsoft.com/en-us/windows/wsl/install) ::<< Will allow Linux shell to run on windows.
 * Refer this [video](https://www.youtube.com/watch?v=Tlx7qZCPIsA&ab_channel=CloudChamp) for a better clarity. ` ⚠ Recommended ⚠ `
-* Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ` python3 main.py ` and enquiring the error to chat-GPT. `Be ready for this, will be useful in Step 3`
+* Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ` python3 main.py ` and enquiring all the errors you face to chat-GPT. `Be ready for this, will be useful in Step 3`
 * You'll need to change this settings inside Docker to allow docker in ubuntu `Be ready for this, will be useful in Step 3`
 
 
@@ -59,6 +59,18 @@ This shall also be very helpful for students, who are planning to switch from bt
 
     <img src="assets/usage.png" alt="Image" width="600"/>
 
-  
+### Step 2: Clone this repo
 
+Done with the `git clone` command followed by the URL of the repo:
+
+```bash
+git clone https://github.com/souvikcseiitk/gate_cse_gpt
+```
+* Place it close to home directory as you'll need to `cd` to this directory many times.
+
+Next,  navigate to the project folder:
+
+```bash
+cd gate_cse_gpt
+```
 
