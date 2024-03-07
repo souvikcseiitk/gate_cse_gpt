@@ -210,7 +210,7 @@ Bring the `y` folder from ( `x` ) to (\\wsl.localhost\Ubuntu\home\souvik\gate_cs
 
 &nbsp;
 &nbsp;
-## Hallucinations of GPT-2
+#### Hallucinations of GPT-2
 &nbsp;
 <img src="assets/Screenshot (2).png" alt="Image" width="600"/>
 
