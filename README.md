@@ -58,14 +58,17 @@ This shall also be very helpful for students, who are planning to switch from bt
   
 
 ### Step 1: Pre-requisites 
-`Windows user switch to the WSL-2 folder for all further work`
+`Windows users switch to the WSL-2 folder for all further work; You'll find a linux folder which looks like this, go to home -> username and start working here, the bash can be acessed by searching ubuntu in the search bar`
+
+<img src="assets/help.PNG" alt="Image" width="600"/>
+
 
 * You need to have python 3.10 or more. You may download it from here: [Python](https://www.python.org/downloads/)
 * Download and Install [Pip](https://pip.pypa.io/en/stable/installation/)
 * Make an OpenAI account, go and get your free API token worth 5 Dollars from [here](https://platform.openai.com/api-keys) `https://platform.openai.com/api-keys`
 * Check if you have enough balence, as in many cases, the balence is zero from the start. [This page of your OpenAI](https://platform.openai.com/usage) should look like this:
 
-    <img src="assets/usage.png" alt="Image" width="600"/>
+    <img src="assets/wsl.PNG" alt="Image" width="600"/>
 
 If it's showing `exhausted`, try using a fresh mobile number to login.
 
@@ -91,12 +94,14 @@ Install [Docker](https://docs.docker.com/engine/install/)
 
 #### Step 4: Set environment variables
 
-Create `.env` file in the root directory of the project, copy and paste the below config, and replace the `{OPENAI_API_KEY}` configuration value with your key.
+Modiy the `.env` file in the root directory of the project. 
 
-There is no curly braces, use quotations to place your key and use relative address of your dropbox
+* Replace the "OPENAI_API_TOKEN" value, place your OpenAI API key inside a quotation.
+
+* Replace the dropbox address, use relative address of your dropbox.
 
 ```bash
-OPENAI_API_TOKEN={OPENAI_API_KEY}
+OPENAI_API_TOKEN= "Your_OPENAI_API_KEY"
 HOST=0.0.0.0
 PORT=8080
 EMBEDDER_LOCATOR=text-embedding-ada-002
@@ -104,6 +109,22 @@ EMBEDDING_DIMENSION=1536
 MODEL_LOCATOR=gpt-3.5-turbo
 MAX_TOKENS=200
 TEMPERATURE=0.0
-DROPBOX_LOCAL_FOLDER_PATH="../../../mnt/c/Users/bumur/Dropbox/documents"
+DROPBOX_LOCAL_FOLDER_PATH="../Dropbox"
 ```
+
 We'll have a shared dropbox account, so that all of us can contribute (only students of IIT's/IISc who are willing to contribute) 
+
+#### Step 5: Install the app dependencies
+
+Install the required packages:
+
+```bash
+pip install --upgrade -r requirements.txt  #one time task; will take time
+```
+
+#### Step 6: Build up the Docker containers
+
+```bash
+docker-compose build #one time task; will take time
+docker-compose up
+```
