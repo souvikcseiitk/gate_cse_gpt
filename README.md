@@ -120,13 +120,13 @@ We'll have a shared dropbox account, so that all of us can contribute (only stud
 Install the required packages:
 
 ```bash
-pip install --upgrade -r requirements.txt  #one time task; will take time
+pip install --upgrade -r requirements.txt  #one time task; will take time ( ~ 45 mins using iitk-sec(Highspeed-5GHz) )
 ```
 
 #### Step 6: Build up the Docker containers
 
 ```bash
-docker-compose build #one time task; will take time
+docker-compose build #one time task; will take time ( ~ 45 mins using iitk-sec(Highspeed-5GHz) )
 docker-compose up
 ```
 
