@@ -16,7 +16,8 @@ Widely used GPT's like ChatGPT, ‎Gemini cannot produce real-time and student c
 This repo is mostly a modification of [Dropbox-ai-chat](https://github.com/pathway-labs/dropbox-ai-chat/tree/main)
 
 # ⚠ CAUTION ⚠
-This project is under development. I am commiting for a bootcamp evaluation, will need to modify a lot before it's ready to use.
+This project is under development. I am commiting it on github, for the pathway-iitk-iitbhu bootcamp evaluation, the genesis of the project. 
+The project needs lots of modification before it's ready to use.
 
 It's not recommended to use this as of now. This is using a GPT-2 as of now and is full of hallucinations.
 
@@ -24,7 +25,7 @@ As of now the dropbox is only having standard textbooks, needed for the GATE exa
 
 I am not sharing the books here, as there might be copyright problems.
 
-` I'm sharing a pdf having some basic info's regarding master's in CSE at IIT's and some interview experiences ` just in cse someone wants to try out the potential of the project. `It is in the demo_dropbox folder`
+` However I'm sharing a pdf having some basic info's regarding master's in CSE at IIT's and some interview experiences ` just in cse someone wants to try out the potential of the project. `It is in the demo_dropbox folder`
 
 ### comming up...
 We'll have standard books along with interview experiences and campus information (placements, campus life, etc) at our backend, once we have enough money to use GPT-4 and a machine to host our website 24x7.
@@ -46,7 +47,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 ### Step 0: If you are a Windows user, i.e. not a MAC/Linux/Debian user.
 * Download [WSL-2](https://learn.microsoft.com/en-us/windows/wsl/install) ::<< Will allow Linux shell to run on windows.
 * Refer this [video](https://www.youtube.com/watch?v=Tlx7qZCPIsA&ab_channel=CloudChamp) for a better clarity. ` ⚠ Recommended ⚠ `
-* Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ` python3 main.py ` and enquiring all the errors you face to chat-GPT. `Be ready for this, will be useful in Step 3`
+* Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ` python3 main.py ` and enquiring all the errors you face to chat-GPT. `Be ready for this, will be useful in Step 7`
 * You'll need to change this settings inside Docker to allow docker in ubuntu `Be ready for this, will be useful in Step 3`
 
 <img src="assets/help.PNG" alt="Image" width="600"/>
