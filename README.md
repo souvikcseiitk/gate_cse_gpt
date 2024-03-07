@@ -50,7 +50,7 @@ You may download it from here: [Python](https://www.python.org/downloads/)
 * Check if you have enough balence, as in many cases, the balence is zero from the start. [This page of your OpenAI](https://platform.openai.com/usage) should look like this:
 
 
-    <img src="assets/usage.PNG" alt="Image" width="600"/>
+    <img src="assets/usage.png" alt="Image" width="600"/>
 
   
 
