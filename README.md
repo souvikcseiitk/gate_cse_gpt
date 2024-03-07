@@ -146,6 +146,7 @@ It's a tool for defining and running multi-container Docker applications. In our
 
 When you run docker-compose up, it starts the services as defined.
 
+
 #### Step 7: Run the Pathway API
 
 You start the application by running `main.py`:
@@ -158,6 +159,8 @@ python3 main.py
 
 You can run the UI separately by running Streamlit app
 `streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
+
+
 
 # Some common problems and solutions
 
