@@ -9,8 +9,19 @@ The main idea is to have a shared dropbox account, with write acess to a handful
 All of the resources will be stored in the drop-box and using these, the GPT will generate a real-time and relevent guide. 
 Widely used GPT's like ChatGPT, ‎Gemini cannot produce real-time and student curated answers like this bot-GPT will produce.
 
-This repo is mostly a modification on [Dropbox-ai-chat](https://github.com/pathway-labs/dropbox-ai-chat/tree/main)
+
+This repo is mostly a modification of [Dropbox-ai-chat](https://github.com/pathway-labs/dropbox-ai-chat/tree/main)
 
 # CAUTION
 This project is under development. I am commiting for a bootcamp evaluation, will need to modify a lot before it's ready to use.
 It's not recommended to use this as of now. This is using a GPT-2 as of now and is full of hallucinations. 
+As of now the dropbox is only having standard textbooks, needed for the GATE exam.
+I am not sharing the books here, as there might be copyright problems.
+We'll also have standard books along with interview experiences and campus information at our backend, once we have enough money to use GPT-4 and a machine to host our website 24x7.
+
+## Demo
+
+See how the tool will look once ready:
+
+![GATE CSE GPT bot](gif1.gif)
+
