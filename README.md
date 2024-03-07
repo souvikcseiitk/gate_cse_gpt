@@ -133,7 +133,8 @@ docker-compose up
 Once your work is done, stop the containers using `docker-compose down` 
 Windows users, Docker do not get terminated once you click the close button. Switch it off from the app tray in the bottom right of the taskbar. Looks like this ( ^ ). `Right click on the docker icon and click Quit Docker Desktop` 
 
-### Behind the Scenes with Docker:
+### Behind the Scenes with Docker: 
+[Copied from [here](https://iitk-bhu-llm.gitbook.io/coursework/hands-on-development/dropbox-retrieval-app/building-the-dockerized-app)]
 
 ### Dockerfile: 
 
