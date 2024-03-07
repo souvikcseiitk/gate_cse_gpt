@@ -23,7 +23,7 @@ We'll also have standard books along with interview experiences and campus infor
 
 See how the tool will look once ready:
 
-<img src="assets/gif1.gif" alt="Image" width="300"/>
+![GATE CSE GPT bot](assets/gif1.gif)
 
 This shall also be very helpful for students, who are planning to switch from btech in non-CSE to mtech in CSE, as there are many students who are taking this path and there is very less helpful resource online to guide them properly.
 
