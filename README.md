@@ -31,9 +31,12 @@ This shall also be very helpful for students, who are planning to switch from bt
 
 ## Steps to Follow
 
+
 ### Step 0: If you are not a MAC/Linux/Debian user, i.e. if you are a Windows user
-* Download [WSL-2](https://learn.microsoft.com/en-us/windows/wsl/install) ::<< Will allow Linux shell to run on windows
-* You can refer this [video](https://www.youtube.com/watch?v=Tlx7qZCPIsA&ab_channel=CloudChamp) for a better clarity
+* Download [WSL-2](https://learn.microsoft.com/en-us/windows/wsl/install) ::<< Will allow Linux shell to run on windows.
+* You can refer this [video](https://www.youtube.com/watch?v=Tlx7qZCPIsA&ab_channel=CloudChamp) for a better clarity.
+* Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ''' python3 main.py ''' and enquiring the error to chat-GPT.
+* 
 
 ### Step 1: You need to have python 3.10 or more. 
 You may download it from here: [Python](https://www.python.org/downloads/)
