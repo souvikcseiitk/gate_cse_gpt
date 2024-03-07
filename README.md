@@ -26,7 +26,9 @@ I am not sharing the books here, as there might be copyright problems.
 
 ` I'm sharing a pdf having some basic info's regarding master's in CSE at IIT's and some interview experiences ` just in cse someone wants to try out the potential of the project. `It is in the demo_dropbox folder`
 
-We'll also have standard books along with interview experiences and campus information at our backend, once we have enough money to use GPT-4 and a machine to host our website 24x7.
+### comming up...
+We'll have standard books along with interview experiences and campus information (placements, campus life, etc) at our backend, once we have enough money to use GPT-4 and a machine to host our website 24x7.
+
 
 ## Demo
 
@@ -47,8 +49,13 @@ This shall also be very helpful for students, who are planning to switch from bt
 * Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ` python3 main.py ` and enquiring all the errors you face to chat-GPT. `Be ready for this, will be useful in Step 3`
 * You'll need to change this settings inside Docker to allow docker in ubuntu `Be ready for this, will be useful in Step 3`
 
+<img src="assets/help.PNG" alt="Image" width="600"/>
 
- <img src="assets/help.PNG" alt="Image" width="600"/> 
+* Once you're using Docker, you'll see `VMMem` draining a lot of your battery.
+* VMMem.exe is a host process that hosts Docker containers and other virtual machines on the system.
+* Docker do not get terminated once you click the close button. Switch it off from the app tray in the bottom right of the taskbar. Looks like this ( ^ ). 
+
+  
 
 ### Step 1: Pre-requisites 
 `Windows user switch to the WSL-2 folder for all further work`
@@ -58,8 +65,8 @@ This shall also be very helpful for students, who are planning to switch from bt
 * Make an OpenAI account, go and get your free API token worth 5 Dollars from [here](https://platform.openai.com/api-keys) `https://platform.openai.com/api-keys`
 * Check if you have enough balence, as in many cases, the balence is zero from the start. [This page of your OpenAI](https://platform.openai.com/usage) should look like this:
 
-
     <img src="assets/usage.png" alt="Image" width="600"/>
+
 
 ### Step 2: Clone this repo, ideally close to home directory
 
@@ -74,5 +81,28 @@ Next,  navigate to the project folder:
 
 ```bash
 cd gate_cse_gpt
+```
+
+#### Step 3: Dropbox and Docker
+
+Install [Dropbox Desktop](https://www.dropbox.com/downloading?os=win&ref=edshelf)
+Install [Docker](https://docs.docker.com/engine/install/)
+
+#### Step 4: Set environment variables
+
+Create `.env` file in the root directory of the project, copy and paste the below config, and replace the `{OPENAI_API_KEY}` configuration value with your key.
+
+There is no curly braces, use quotations to place your key and use relative address of your dropbox
+
+```bash
+OPENAI_API_TOKEN={OPENAI_API_KEY}
+HOST=0.0.0.0
+PORT=8080
+EMBEDDER_LOCATOR=text-embedding-ada-002
+EMBEDDING_DIMENSION=1536
+MODEL_LOCATOR=gpt-3.5-turbo
+MAX_TOKENS=200
+TEMPERATURE=0.0
+DROPBOX_LOCAL_FOLDER_PATH="../../../mnt/c/Users/bumur/Dropbox/documents"
 ```
 
