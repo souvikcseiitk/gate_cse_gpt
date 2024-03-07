@@ -145,8 +145,45 @@ python3 main.py
 You can run the UI separately by running Streamlit app
 `streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
 
+# Some common problems and solutions
+
+## Error 1. This is not the real Pathway package
+
+<img src="assets/error3.PNG" alt="Image" width="600"/>
+
+This means you are not in a MAC/Linux/Debian/WSL kind of environment. Follow Step-0 and install WSL, go to the Linux folder and work from there.
+
+## Error 2. Token Limit error `HTTP/1.1 429 Too Many Requests`
+
+<img src="assets/error1.PNG" alt="Image" width="600"/>
+
+This means, you have exhausted your OpenAI token limits, [check here] (https://platform.openai.com/usage) 
+
+<img src="assets/error2.PNG" alt="Image" width="600"/>
+
+If [this](https://platform.openai.com/usage) shows `expired` instead of `available` Login with a fresh mobile number, that you have never used with open-AI.
+
+## Error 3. error while attempting to bind on address ('0.0.0.0', 8080): address already in use 
+Change to some other port in the .env file, like try 8081 instaed of 8080
+
+## Error 4. Any problem related to some package not found that you have already installed. Like `dotenv`, `litellm`, `streamlit`, `pip`, etc not found.
+
+Find where that package is located by either ChatGPT or come out to root and do manual search in the search box. 
+Most of the things are here (\\wsl.localhost\Ubuntu\home\souvik\.local\lib\python3.10\site-packages)
+
+Let the package not found is `y`
+
+Let `x` = \\wsl.localhost\Ubuntu\home\souvik\.local\lib\python3.10\site-packages\ `y`
+Bring this `y` to your working folder.
+
+For example 
+Bring the `y` folder from ( `x` ) to (\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt) where we have main.py
+
+
 # Some screenshots of the laptop, in the working environment
 
-<img src="assets/Screenshot (1).png.png" alt="Image" width="600"/>
+<img src="assets/Screenshot (1).png" alt="Image" width="600"/>
 <img src="assets/Screenshot (2).png" alt="Image" width="600"/>
 <img src="assets/Screenshot (3).png" alt="Image" width="600"/>
+<img src="assets/Screenshot (4).png" alt="Image" width="600"/>
+<img src="assets/Screenshot (5).png" alt="Image" width="600"/>
