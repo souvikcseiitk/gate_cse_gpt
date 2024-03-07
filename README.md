@@ -61,7 +61,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 ### Step 1: Pre-requisites 
 `Windows users switch to the WSL-2 folder for all further work; You'll find a linux folder which looks like this, go to home -> username and start working here, the bash can be acessed by searching ubuntu in the search bar`
 
-<img src="assets/wsl.PNG" alt="Image" width="600"/>
+<img src="assets/wsl1.PNG" alt="Image" width="600"/>
 
 
 * You need to have python 3.10 or more. You may download it from here: [Python](https://www.python.org/downloads/)
