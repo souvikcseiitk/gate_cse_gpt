@@ -53,7 +53,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 
 * Once you're using Docker, you'll see `VMMem` draining a lot of your battery.
 * VMMem.exe is a host process that hosts Docker containers and other virtual machines on the system.
-* Docker do not get terminated once you click the close button. Switch it off from the app tray in the bottom right of the taskbar. Looks like this ( ^ ). 
+* Docker do not get terminated once you click the close button. Switch it off from the app tray in the bottom right of the taskbar. Looks like this ( ^ ). `Right click on the docker icon and click Quit Docker Desktop` 
 
   
 
@@ -66,7 +66,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 * You need to have python 3.10 or more. You may download it from here: [Python](https://www.python.org/downloads/)
 * Download and Install [Pip](https://pip.pypa.io/en/stable/installation/)
 * Make an OpenAI account, go and get your free API token worth 5 Dollars from [here](https://platform.openai.com/api-keys) `https://platform.openai.com/api-keys`
-* Check if you have enough balance, as in many cases, the balance is zero from the start. [This page of your OpenAI](https://platform.openai.com/usage) should look like this:
+* Check if you have enough balance, as in many cases, the balance is zero from the start itself. [This page of your OpenAI](https://platform.openai.com/usage) should look like this:
 
     <img src="assets/usage.png" alt="Image" width="600"/>
 
@@ -128,3 +128,21 @@ pip install --upgrade -r requirements.txt  #one time task; will take time
 docker-compose build #one time task; will take time
 docker-compose up
 ```
+
+Once your work is done, stop the containers using `docker-compose down` 
+Windows users, Docker do not get terminated once you click the close button. Switch it off from the app tray in the bottom right of the taskbar. Looks like this ( ^ ). `Right click on the docker icon and click Quit Docker Desktop` 
+
+#### Step 7: Run the Pathway API
+
+You start the application by running `main.py`:
+
+```bash
+python3 main.py
+```
+
+#### Step 8: Run Streamlit UI
+
+You can run the UI separately by running Streamlit app
+`streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
+
+
