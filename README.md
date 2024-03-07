@@ -205,8 +205,13 @@ Bring the `y` folder from ( `x` ) to (\\wsl.localhost\Ubuntu\home\souvik\gate_cs
 &nbsp;
 # Some screenshots of the working environment
 
+&nbsp;
 <img src="assets/Screenshot (1).png" alt="Image" width="600"/>
+&nbsp;
 <img src="assets/Screenshot (2).png" alt="Image" width="600"/>
+&nbsp;
 <img src="assets/Screenshot (3).png" alt="Image" width="600"/>
+&nbsp;
 <img src="assets/Screenshot (4).png" alt="Image" width="600"/>
+&nbsp;
 <img src="assets/Screenshot (5).png" alt="Image" width="600"/>
