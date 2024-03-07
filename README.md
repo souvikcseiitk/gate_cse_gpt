@@ -29,3 +29,8 @@ This shall also be very helpful for students, who are planning to switch from bt
 
 <img src="assets/gif2.gif" alt="Image" width="600"/>
 
+## Steps to Follow
+
+### Step 1: You need to have python 3.10 or more
+
+
