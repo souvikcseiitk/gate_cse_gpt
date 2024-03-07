@@ -145,4 +145,8 @@ python3 main.py
 You can run the UI separately by running Streamlit app
 `streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
 
+# Some screenshots of the laptop, in the working environment
 
+<img src="assets/Screenshot (1).png.png" alt="Image" width="600"/>
+<img src="assets/Screenshot (2).png" alt="Image" width="600"/>
+<img src="assets/Screenshot (3).png" alt="Image" width="600"/>
