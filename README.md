@@ -23,5 +23,5 @@ We'll also have standard books along with interview experiences and campus infor
 
 See how the tool will look once ready:
 
-![GATE CSE GPT bot](gif1.gif)
+![GATE CSE GPT bot](assets/gif1.gif)
 
