@@ -121,7 +121,9 @@ dropbox_path = 'C:\Users\souvi\Dropbox'
 local_path = '\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt\Dropbox'
 ```
 
-* Create a folder named `Dropbox` in the project directory. `\\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt\` | We'll copy the dropbox content to this local `Dropbox` folder, inside our project folder.
+* Create a folder named `Dropbox` in the project directory. `\\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt\`
+
+We'll copy the dropbox content to this local `Dropbox` folder, inside our project folder.
   
 * Run the `dropbox.py`
 
