@@ -9,7 +9,7 @@ Aims in helping students with interview and other common doubts, related to GATE
 With the help of [Pathway's LLM App](https://github.com/pathwaycom/llm-app), and a [Dropbox](https://dropbox.com/) at backend, aims to help students to ace the GATE exam with free resources, helping in Post-GATE interviews, the main exam, and the test series equally.
 
 The main idea is to have a shared dropbox account, with write acess to a handful of students across all IIT's/IISc, to share relavent insights about campus life, placements and interview experiences.
-All of the resources will be stored in the drop-box and using these, the GPT will generate a real-time and relevent guide. 
+All of the resources will be stored in the drop-box and using these, and the [Pathway's LLM App](https://github.com/pathwaycom/llm-app), the UI will generate a real-time and relevent guide, out of the student's query. 
 
 Widely used GPT's like ChatGPT, ‎Gemini cannot produce real-time and student curated answers like this bot-GPT will produce.
 
