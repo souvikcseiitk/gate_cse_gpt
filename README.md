@@ -10,6 +10,7 @@ With the help of [Pathway's LLM App](https://github.com/pathwaycom/llm-app), and
 
 The main idea is to have a shared dropbox account, with write acess to a handful of students across all IIT's/IISc, to share relavent insights about campus life, placements and interview experiences.
 All of the resources will be stored in the drop-box and using these, the GPT will generate a real-time and relevent guide. 
+
 Widely used GPT's like ChatGPT, ‎Gemini cannot produce real-time and student curated answers like this bot-GPT will produce.
 
 
