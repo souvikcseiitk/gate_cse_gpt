@@ -48,7 +48,7 @@ This shall also be very helpful for students, who are planning to switch from bt
 ### Step 0: If you are a Windows user, i.e. not a MAC/Linux/Debian user.
 * Download [WSL-2](https://learn.microsoft.com/en-us/windows/wsl/install) ::<< Will allow Linux shell to run on windows.
 * Refer this [video](https://www.youtube.com/watch?v=Tlx7qZCPIsA&ab_channel=CloudChamp) for a better clarity. ` ⚠ Recommended ⚠ `
-* Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ` python3 main.py ` and enquiring all the errors you face to chat-GPT. `Be ready for this, will be useful in Step 7`
+* Since you're inside a new Linux environment, you'll need to install many stuffs, like pip and all, you can figure them out buy running the main file ` python3 main.py ` and enquiring all the errors you face to chat-GPT. `Be ready for this, will be useful in Step 8`
 * You'll need to change this settings inside Docker to allow docker in ubuntu `Be ready for this, will be useful in Step 3`
 
 <img src="assets/help.PNG" alt="Image" width="600"/>
@@ -97,7 +97,7 @@ Install [Docker](https://docs.docker.com/engine/install/)
 #### Step 4: Export Dropbox content to the gate_cse_gpt folder
 
 `Windows` users needs to run this step outside the Linux/WSL-2 environment, i.e in the ` windows shell `
-As, we need a common root for Dropbox ( ` C:\Users\souvi\Dropbox `) and our project folder, which is present inside the linux/WSL-2 environment ( ` \\wsl.localhost\Ubuntu\home\souvik\souvikcseiitk\dropbox ` )
+As, we need a common root for Dropbox ( ` C:\Users\souvi\Dropbox `) and our project folder, which is present inside the linux/WSL-2 environment ( ` \\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt ` )
 
 * Run this command to install the Dropbox Python SDK:
 `pip install dropbox`
@@ -118,7 +118,7 @@ ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
 ```bash
 # Specify the Dropbox path and local folder path
 dropbox_path = 'C:\Users\souvi\Dropbox'
-local_path = '\\wsl.localhost\Ubuntu\home\souvik\souvikcseiitk\dropbox'
+local_path = '\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt\dropbox'
 ```
 
 * Run the `dropbox.py`
