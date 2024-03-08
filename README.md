@@ -118,7 +118,7 @@ ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
 ```bash
 # Specify the Dropbox path and local folder path
 dropbox_path = 'C:\Users\souvi\Dropbox'
-local_path = '\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt\dropbox'
+local_path = '\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt\Dropbox'
 ```
 
 * Run the `dropbox.py`
