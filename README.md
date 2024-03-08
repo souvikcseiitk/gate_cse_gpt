@@ -93,7 +93,36 @@ cd gate_cse_gpt
 Install [Dropbox Desktop](https://www.dropbox.com/downloading?os=win&ref=edshelf)
 Install [Docker](https://docs.docker.com/engine/install/)
 
-#### Step 4: Set environment variables
+#### Step 4: Export Dropbox content to the gate_cse_gpt folder
+
+`Windows` users needs to run this step outside the Linux/WSL-2 environment, i.e in the ` windows shell `
+As, we need a common root for Dropbox ( ` C:\Users\souvi\Dropbox `) and our project folder, which is present inside the linux/WSL-2 environment ( ` \\wsl.localhost\Ubuntu\home\souvik\souvikcseiitk\dropbox ` )
+
+* Run this command to install the Dropbox Python SDK:
+`pip install dropbox`
+
+* Open Dropbox for windows, you may not see the UI on the screen, it mostly runs in the background, however you can access the content from here ` C:\Users\souvi\Dropbox `
+
+* Go to [this site](https://developers.dropbox.com/oauth-guide) to get your Dropbox access token
+
+Update this line in the ` dropbox.py `
+
+```bash
+# Define your access token
+ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
+```
+  
+* Update these two lines in the `dropbox.py `
+
+```bash
+# Specify the Dropbox path and local folder path
+dropbox_path = 'C:\Users\souvi\Dropbox'
+local_path = '\\wsl.localhost\Ubuntu\home\souvik\souvikcseiitk\dropbox'
+```
+
+* Run the `dropbox.py`
+
+#### Step 5: Set environment variables
 
 Modiy the `.env` file in the root directory of the project. 
 
@@ -115,7 +144,7 @@ DROPBOX_LOCAL_FOLDER_PATH="../Dropbox"
 
 We'll have a shared dropbox account, so that all of us can contribute (only students of IIT's/IISc who are willing to contribute) 
 
-#### Step 5: Install the app dependencies
+#### Step 6: Install the app dependencies
 
 Install the required packages:
 
@@ -123,7 +152,7 @@ Install the required packages:
 pip install --upgrade -r requirements.txt  #one time task; will take time ( ~ 45 mins using iitk-sec(Highspeed-5GHz) )
 ```
 
-#### Step 6: Build up the Docker containers
+#### Step 7: Build up the Docker containers
 
 ```bash
 docker-compose build #one time task; will take time ( ~ 45 mins using iitk-sec(Highspeed-5GHz) )
@@ -147,7 +176,7 @@ It's a tool for defining and running multi-container Docker applications. In our
 `When you run docker-compose up, it starts the services as defined.`
 
 &nbsp;
-#### Step 7: Run the Pathway API
+#### Step 8: Run the Pathway API
 
 You start the application by running `main.py`:
 
@@ -156,7 +185,7 @@ python3 main.py
 ```
 
 &nbsp;
-#### Step 8: Run Streamlit UI
+#### Step 9: Run Streamlit UI
 
 You can run the UI separately by running Streamlit app
 `streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
