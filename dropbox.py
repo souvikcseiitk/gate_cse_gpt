@@ -9,7 +9,7 @@ dbx = dropbox.Dropbox(ACCESS_TOKEN)
 
 # Specify the Dropbox path and local folder path
 dropbox_path = 'C:\Users\souvi\Dropbox'
-local_path = '\\wsl.localhost\Ubuntu\home\souvik\souvikcseiitk\dropbox'
+local_path = '\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt\Dropbox'
 
 # Create local folder if it doesn't exist
 if not os.path.exists(local_path):
