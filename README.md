@@ -94,7 +94,7 @@ cd gate_cse_gpt
 Install [Dropbox Desktop](https://www.dropbox.com/downloading?os=win&ref=edshelf)
 Install [Docker](https://docs.docker.com/engine/install/)
 
-#### Step 4: Export Dropbox content to the gate_cse_gpt folder
+#### Step 4: Export Dropbox content to a 'local folder' inside the 'gate_cse_gpt' folder
 
 `Windows` users needs to run this step outside the Linux/WSL-2 environment, i.e in the ` windows shell `
 As, we need a common root for Dropbox ( ` C:\Users\souvi\Dropbox `) and our project folder, which is present inside the linux/WSL-2 environment ( ` \\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt ` )
@@ -121,6 +121,8 @@ dropbox_path = 'C:\Users\souvi\Dropbox'
 local_path = '\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt\Dropbox'
 ```
 
+* Create a folder named `Dropbox` in the project directory. `\\\wsl.localhost\Ubuntu\home\souvik\gate_cse_gpt\` | We'll copy the dropbox content to this local `Dropbox` folder, inside our project folder.
+  
 * Run the `dropbox.py`
 
 #### Step 5: Set environment variables
