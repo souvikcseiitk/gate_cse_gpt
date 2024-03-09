@@ -211,7 +211,7 @@ This means you are not in a MAC/Linux/Debian/WSL kind of environment. Follow Ste
 
 <img src="assets/error1.PNG" alt="Image" width="600"/>
 
-This means, you have exhausted your OpenAI token limits, [check here] (https://platform.openai.com/usage) 
+This means, you have exhausted your OpenAI token limits, [check here](https://platform.openai.com/usage) 
 
 <img src="assets/error2.PNG" alt="Image" width="600"/>
 
