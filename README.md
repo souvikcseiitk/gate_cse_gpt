@@ -129,6 +129,8 @@ We'll copy the dropbox content to this local `Dropbox` folder, inside our projec
 
 #### Step 5: Set environment variables
 
+* Rename the `env.txt` file to `.env`
+
 Modiy the `.env` file in the root directory of the project. 
 
 * Replace the "OPENAI_API_TOKEN" value, place your OpenAI API key inside a quotation.
