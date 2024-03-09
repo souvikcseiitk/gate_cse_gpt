@@ -1,7 +1,8 @@
 # GATE CSE GPT, The problem and solution
 
-* This repo will be used and managed by contributers only.
+* This repo will be used and managed by the server hosting person only.
 * Users can directly use the website after it is hosted.
+* Contributers can directly upload content to the dropbox.
 
 A chatbot-GPT powered by [OpenAI](https://openai.com/) & [Pathway](https://pathway.com/).
 
