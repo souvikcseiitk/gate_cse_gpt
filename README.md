@@ -184,6 +184,12 @@ It's a tool for defining and running multi-container Docker applications. In our
 `When you run docker-compose up, it starts the services as defined.`
 
 &nbsp;
+
+#### Step 8 and 9: Only if main.py and UI do no get called by docker itself. 
+```bash
+Streamlit UI: http://localhost:8501/
+```
+
 #### Step 8: Run the Pathway API
 
 You start the application by running `main.py`:
